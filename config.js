@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  url: 'https://victorzhou.com',
-  title: 'victorzhou.com',
-  subtitle: 'SWE @ Facebook. CS \'19 @ Princeton. I blog about web development, machine learning, and more.',
-  copyright: '© Victor Zhou 2019',
+  url: 'https://tsur.org',
+  title: 'tsur.org',
+  subtitle: 'Entrepreneur at heart. \'A freak like me just needs infinity\'',
+  copyright: '© Shlomi Tsur 2019',
   postsPerPage: 8,
-  googleAnalyticsId: 'UA-58664433-1',
+  googleAnalyticsId: '<REPLACE>UA-58664433-1',
   menu: [
     {
       label: 'Blog',
@@ -22,14 +22,14 @@ module.exports = {
     },
   ],
   author: {
-    name: 'Victor Zhou',
+    name: 'Shlomi Tsur',
     photo: '/photo2.png',
     photoLarge: '/photo2-large.png',
-    bio: 'SWE @ Facebook. CS \'19 @ Princeton. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more</a>.',
+    bio: 'I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more</a>.',
     contacts: {
-      email: 'vzhou842@gmail.com',
-      twitter: 'victorczhou',
-      github: 'vzhou842',
+      email: 'shlomo.tsur@gmail.com',
+      twitter: 'shlomitsur',
+      github: 'shlomitsur',
       rss: '/rss.xml',
     }
   }
