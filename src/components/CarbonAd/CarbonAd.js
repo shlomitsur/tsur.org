@@ -20,14 +20,14 @@ class CarbonAd extends React.PureComponent<Props> {
   }
 
   componentDidMount() {
-    const container = this.ref.current;
-    if (container && this.shouldDisplay()) {
-      const script = document.createElement('script');
-      script.id = '_carbonads_js';
-      script.async = true;
-      script.src = '//cdn.carbonads.com/carbon.js?serve=CK7I4237&placement=victorzhoucom';
-      container.appendChild(script);
-    }
+    // const container = this.ref.current;
+    // if (container && this.shouldDisplay()) {
+    //   const script = document.createElement('script');
+    //   script.id = '_carbonads_js';
+    //   script.async = true;
+    //   script.src = '//cdn.carbonads.com/carbon.js?serve=CK7I4237&placement=victorzhoucom';
+    //   container.appendChild(script);
+    // }
   }
 
   shouldDisplay() {
@@ -40,15 +40,16 @@ class CarbonAd extends React.PureComponent<Props> {
   }
 
   render() {
-    const { smallOnly, largeOnly } = this.props;
-    return (
-      <div
-        ref={this.ref}
-        className={
-          largeOnly ? styles['container-large'] : smallOnly ? styles['container-small'] : null
-        }
-      />
-    );
+    // const { smallOnly, largeOnly } = this.props;
+    // return (
+    //   <div
+    //     ref={this.ref}
+    //     className={
+    //       largeOnly ? styles['container-large'] : smallOnly ? styles['container-small'] : null
+    //     }
+    //   />
+    // );
+    return (<div></div>);
   }
 }
 

@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://tsur.org',
   title: 'tsur.org',
   subtitle: 'Entrepreneur at heart. \'A freak like me just needs infinity\'',
-  copyright: '© Shlomi Tsur 2019',
+  copyright: '',
   postsPerPage: 8,
   googleAnalyticsId: '<REPLACE>UA-58664433-1',
   menu: [
