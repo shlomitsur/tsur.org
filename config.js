@@ -25,7 +25,11 @@ module.exports = {
     name: 'Shlomi Tsur',
     photo: '/photo2.png',
     photoLarge: '/photo2-large.png',
-    bio: 'I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more</a>.',
+    bio: '(all posts are original <a href="https://victorzhou.com/">Victor Zhou</a>' +
+      ' posts) I blog about' +
+      ' <a href="/tag/web-development/">web' +
+      ' development</a>, <a' +
+      ' href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more</a>.',
     contacts: {
       email: 'shlomo.tsur@gmail.com',
       twitter: 'shlomitsur',
