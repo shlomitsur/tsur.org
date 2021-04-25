@@ -9,12 +9,12 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h1>
-          &nbsp;The <strong>Life?</strong>
-        </h1>
-        <button onClick={scrollToContent} aria-label="scroll">
-          <FaArrowDown />
-        </button>
+        {/*<h1>*/}
+          {/*&nbsp;The <strong>Life?</strong>*/}
+        {/*</h1>*/}
+        {/*<button onClick={scrollToContent} aria-label="scroll">*/}
+          {/*<FaArrowDown />*/}
+        {/*</button>*/}
       </section>
 
       {/* --- STYLES --- */}
@@ -28,7 +28,7 @@ const Hero = props => {
           display: flex;
           flex-flow: column nowrap;
           justify-content: center;
-          min-height: 100vh;
+          // min-height: 100vh;
           height: 100px;
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
