@@ -10,7 +10,7 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          This is a demo site of&nbsp;the <strong>heroBlog</strong> GatsbyJS starter
+          &nbsp;The <strong>Life?</strong>
         </h1>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
@@ -28,8 +28,8 @@ const Hero = props => {
           display: flex;
           flex-flow: column nowrap;
           justify-content: center;
-          min-height: 100vh;
-          height: 100px;
+          min-height: 50vh;
+          height: 50px;
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
         }
