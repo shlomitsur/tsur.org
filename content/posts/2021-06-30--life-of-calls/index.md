@@ -9,4 +9,4 @@ author: Tsur
 אתה מנסה למצוא אופציות כאלה ו'לרכוש' אותן.
 אם יהיה לנו מזל הדבר הזה יצליח
 
-![unsplash.com](./lets-do-this.jpeg)
+![unsplash.com](./lets-do-this.jpg)
